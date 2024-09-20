@@ -1,0 +1,28 @@
+{
+    "name": "avalynx/avalynx-lightbox",
+    "description": "AvalynxLightbox is a simple, lightweight, and easy-to-use lightbox library. Based on Bootstrap >=5.3 without any framework dependencies.",
+    "keywords": [
+        "avalynx",
+        "lightbox",
+        "bootstrap",
+        "bootstrap5",
+        "component"
+    ],
+    "homepage": "https://github.com/avalynx/avalynx-lightbox",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juergen Schwind and the Avalynx-Lightbox authors",
+            "homepage": "https://github.com/avalynx/avalynx-lightbox/graphs/contributors"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^5.3"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/avalynx/avalynx-lightbox.git"
+        }
+    ]
+}

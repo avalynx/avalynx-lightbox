@@ -1,0 +1,47 @@
+{
+  "name": "avalynx-lightbox",
+  "title": "AvalynxLightbox",
+  "description": "AvalynxLightbox is a simple, lightweight, and easy-to-use lightbox library. Based on Bootstrap >=5.3 without any framework dependencies.",
+  "version": "0.0.2",
+  "license": "MIT",
+  "main": "dist/js/avalynx-lightbox.js",
+  "module": "dist/js/avalynx-lightbox.esm.js",
+  "files": [
+    "dist/js/avalynx-lightbox.js",
+    "dist/js/avalynx-lightbox.esm.js"
+  ],
+  "keywords": [
+    "avalynx",
+    "lightbox",
+    "bootstrap",
+    "bootstrap5",
+    "component"
+  ],
+  "ignore": [
+    "package.json"
+  ],
+  "author": {
+    "name": "Juergen Schwind and the Avalynx-Lightbox authors",
+    "url": "https://github.com/avalynx/avalynx-lightbox/graphs/contributors"
+  },
+  "homepage": "https://github.com/avalynx/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avalynx/avalynx-lightbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avalynx/avalynx-lightbox/issues"
+  },
+  "scripts": {
+    "build": "shx rm -rf dist; shx mkdir -p dist/js/; shx cp src/js/avalynx-lightbox.js dist/js/avalynx-lightbox.js; shx cp src/js/avalynx-lightbox.js dist/js/avalynx-lightbox.esm.js; node build.js dist/js/avalynx-lightbox.esm.js"
+  },
+  "dependencies": {
+    "bootstrap": ">=5.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7",
+    "@babel/preset-env": "^7",
+    "shelljs": "^0",
+    "shx": "^0"
+  }
+}
