@@ -1,0 +1,10 @@
+{
+  "name": "avalynx/avalynx-lightbox",
+  "files": [
+    "dist/js/avalynx-lightbox.esm.js",
+    "dist/js/avalynx-lightbox.js"
+  ],
+  "files-dev": [
+    "src/js/avalynx-lightbox.js"
+  ]
+}
