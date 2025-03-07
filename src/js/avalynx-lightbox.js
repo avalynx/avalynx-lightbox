@@ -3,7 +3,7 @@
  *
  * AvalynxLightbox is a simple, lightweight, and easy-to-use lightbox library. Based on Bootstrap >=5.3 without any framework dependencies.
  *
- * @version 0.0.3
+ * @version 0.0.4
  * @license MIT
  * @author https://github.com/avalynx/avalynx-lightbox/graphs/contributors
  * @website https://github.com/avalynx/
