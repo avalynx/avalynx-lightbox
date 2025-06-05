@@ -1,2 +1,4 @@
 /.idea/
 /node_modules/
+/ai.txt
+/package-lock.json
