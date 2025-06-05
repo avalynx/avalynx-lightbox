@@ -42,7 +42,7 @@ Replace `path/to/avalynx-lightbox.js` with the actual path to the files in your 
 AvalynxLightbox is also available via [jsDelivr](https://www.jsdelivr.com/). You can include it in your project like this:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@0.0.4/dist/js/avalynx-lightbox.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.0/dist/js/avalynx-lightbox.js"></script>
 ```
 
 Make sure to also include Bootstrap's JS/CSS in your project to ensure AvalynxLightbox displays correctly.
@@ -74,6 +74,16 @@ After installing, you can import AvalynxLightbox into your JavaScript file like 
 
 ```javascript
 import { AvalynxLightbox } from 'avalynx-lightbox';
+```
+
+Make sure to also include Bootstrap's JS/CSS in your project to ensure AvalynxLightbox displays correctly.
+
+## Installation via Symfony AssetComposer
+
+More information about the Symfony AssetComposer Bundle can be found [here](https://github.com/jbsnewmedia/asset-composer-bundle).
+
+```twig
+{% do addAssetComposer('avalynx/avalynx-lightbox/dist/js/avalynx-lightbox.js') %}
 ```
 
 Make sure to also include Bootstrap's JS/CSS in your project to ensure AvalynxLightbox displays correctly.
