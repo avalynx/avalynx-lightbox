@@ -3,7 +3,7 @@
  *
  * AvalynxLightbox is a simple, lightweight, and easy-to-use lightbox library. Based on Bootstrap >=5.3 without any framework dependencies.
  *
- * @version 1.0.0
+ * @version 1.0.1
  * @license MIT
  * @author https://github.com/avalynx/avalynx-lightbox/graphs/contributors
  * @website https://github.com/avalynx/
@@ -22,6 +22,8 @@
  * @param {string} language.closeButtonLabel - The aria-label for the close button (default: 'Close').
  */
 
+import * as bootstrap from 'bootstrap';
+
 export class AvalynxLightbox {
     constructor(selector, options = {}, language = {}) {
         if (!selector) {
@@ -32,6 +34,11 @@ export class AvalynxLightbox {
         }
 
         this.selector = selector;
+
+        if (options === null || typeof options !== 'object') {
+            options = {};
+        }
+
         this.options = {
             closeable: options.closeable !== undefined ? options.closeable : true,
             closeOnClickOutside: options.closeOnClickOutside !== undefined ? options.closeOnClickOutside : true,
@@ -40,6 +47,10 @@ export class AvalynxLightbox {
             zIndex: options.zIndex || 1500,
             ...options
         };
+
+        if (language === null || typeof language !== 'object') {
+            language = {};
+        }
 
         this.language = {
             closeButtonLabel: language.closeButtonLabel || 'Close',
