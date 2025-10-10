@@ -30,13 +30,10 @@ class AvalynxLightbox {
         if (!selector.startsWith('.') && !selector.startsWith('#')) {
             selector = '.' + selector;
         }
-
         this.selector = selector;
-
         if (options === null || typeof options !== 'object') {
             options = {};
         }
-
         this.options = {
             closeable: options.closeable !== undefined ? options.closeable : true,
             closeOnClickOutside: options.closeOnClickOutside !== undefined ? options.closeOnClickOutside : true,
@@ -45,16 +42,13 @@ class AvalynxLightbox {
             zIndex: options.zIndex || 1500,
             ...options
         };
-
         if (language === null || typeof language !== 'object') {
             language = {};
         }
-
         this.language = {
             closeButtonLabel: language.closeButtonLabel || 'Close',
             ...language
         };
-
         this.setupClickListener();
     }
 
