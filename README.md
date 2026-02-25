@@ -1,10 +1,18 @@
 # AvalynxLightbox
 
+[![npm version](https://img.shields.io/npm/v/avalynx-lightbox)](https://www.npmjs.com/package/avalynx-lightbox)
+[![npm downloads](https://img.shields.io/npm/dt/avalynx-lightbox)](https://www.npmjs.com/package/avalynx-lightbox)
+[![jsDelivr](https://img.shields.io/jsdelivr/npm/hm/avalynx-lightbox)](https://www.jsdelivr.com/package/npm/avalynx-lightbox)
+[![License](https://img.shields.io/npm/l/avalynx-lightbox)](LICENSE)
+[![Tests](https://github.com/avalynx/avalynx-lightbox/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/avalynx/avalynx-lightbox/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/gh/avalynx/avalynx-lightbox/branch/main/graph/badge.svg)](https://codecov.io/gh/avalynx/avalynx-lightbox)
+[![GitHub stars](https://img.shields.io/github/stars/avalynx/avalynx-lightbox?style=flat&logo=github)](https://github.com/avalynx/avalynx-lightbox)
+
 AvalynxLightbox is a simple, lightweight, and easy-to-use lightbox library, built on Bootstrap 5.3+ without any framework dependencies. It allows you to display images in a lightbox format with customizable options, perfect for integrating into modern web applications.
 
 ## Features
 
-- **Bootstrap-Based**: Integrates seamlessly with Bootstrap (version 5.3 or higher).
+- **Bootstrap Integration**: Designed for seamless integration with Bootstrap >= 5.3.
 - **Customizable Options**: Configure lightbox behavior, including close functionality, opacity, z-index, and more.
 - **Closeable Lightbox**: Optionally allow users to close the lightbox with a button or by clicking outside the image.
 - **Callback Support**: Set custom actions when the lightbox is closed.
@@ -42,7 +50,7 @@ Replace `path/to/avalynx-lightbox.js` with the actual path to the files in your 
 AvalynxLightbox is also available via [jsDelivr](https://www.jsdelivr.com/). You can include it in your project like this:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.1/dist/js/avalynx-lightbox.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.2/dist/js/avalynx-lightbox.js"></script>
 ```
 
 Make sure to also include Bootstrap's JS/CSS in your project to ensure AvalynxLightbox displays correctly.
