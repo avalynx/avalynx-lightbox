@@ -14,6 +14,8 @@ AvalynxLightbox ist eine einfache, leichtgewichtige und benutzerfreundliche Ligh
 
 - **Bootstrap-Integration**: Entwickelt für die nahtlose Integration mit Bootstrap >= 5.3.
 - **Anpassbare Optionen**: Konfiguriere das Verhalten der Lightbox, einschließlich Schließfunktion, Deckkraft, Z-Index und mehr.
+- **Galerie-Modus**: Ermöglicht das Navigieren durch mehrere Bilder mit Navigationsschaltflächen oder Pfeiltasten.
+- **Hintergrund-Scrollen verhindern**: Verhindert optional das Scrollen der Hintergrundseite, während die Lightbox geöffnet ist, ohne Inhaltsverschiebung.
 - **Schließbare Lightbox**: Ermöglicht es Benutzern optional, die Lightbox über eine Schaltfläche oder durch Klicken außerhalb des Bildes zu schließen.
 - **Callback-Unterstützung**: Lege benutzerdefinierte Aktionen fest, wenn die Lightbox geschlossen wird.
 - **Leichtgewichtig**: Keine zusätzlichen Abhängigkeiten außer Bootstrap 5.3+.
@@ -24,6 +26,8 @@ Hier ist ein einfaches Beispiel für die Verwendung von AvalynxLightbox in deine
 
 * [Übersicht](https://avalynx-lightbox.jbs-newmedia.de/examples/index.html)
 * [Lightbox anzeigen](https://avalynx-lightbox.jbs-newmedia.de/examples/show-lightbox.html)
+* [Galerie-Modus](https://avalynx-lightbox.jbs-newmedia.de/examples/gallery.html)
+* [Kein Hintergrund-Scrollen](https://avalynx-lightbox.jbs-newmedia.de/examples/no-scroll.html)
 
 ## Installation
 
@@ -40,17 +44,19 @@ Zuerst Bootstrap einbinden:
 Dann AvalynxLightbox einbinden:
 
 ```html
+<link rel="stylesheet" href="pfad/zu/avalynx-lightbox.css">
 <script src="pfad/zu/avalynx-lightbox.js"></script>
 ```
 
-Ersetze `pfad/zu/avalynx-lightbox.js` durch den tatsächlichen Pfad zu den Dateien in deinem Projekt.
+Ersetze `pfad/zu/avalynx-lightbox.*` durch den tatsächlichen Pfad zu den Dateien in deinem Projekt.
 
 ## Installation via jsDelivr ([Link](https://cdn.jsdelivr.net/npm/avalynx-lightbox/))
 
 AvalynxLightbox ist auch über [jsDelivr](https://www.jsdelivr.com/) verfügbar. Du kannst es wie folgt in dein Projekt einbinden:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.2/dist/js/avalynx-lightbox.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.3/dist/css/avalynx-lightbox.css">
+<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.3/dist/js/avalynx-lightbox.js"></script>
 ```
 
 Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
@@ -68,6 +74,7 @@ Nach der Installation kannst du AvalynxLightbox wie folgt in deine JavaScript-Da
 
 ```javascript
 import { AvalynxLightbox } from 'avalynx-lightbox';
+import 'avalynx-lightbox/dist/css/avalynx-lightbox.css';
 ```
 
 Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
@@ -82,6 +89,7 @@ Nach der Installation kannst du AvalynxLightbox wie folgt in deine JavaScript-Da
 
 ```javascript
 import { AvalynxLightbox } from 'avalynx-lightbox';
+import 'avalynx-lightbox/dist/css/avalynx-lightbox.css';
 ```
 
 Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
@@ -91,6 +99,7 @@ Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine
 Weitere Informationen zum Symfony AssetComposer Bundle findest du [hier](https://github.com/jbsnewmedia/asset-composer-bundle).
 
 ```twig
+{% do addAssetComposer('avalynx/avalynx-lightbox/dist/css/avalynx-lightbox.css') %}
 {% do addAssetComposer('avalynx/avalynx-lightbox/dist/js/avalynx-lightbox.js') %}
 ```
 
@@ -107,8 +116,9 @@ composer require avalynx/avalynx-lightbox
 Nach der Installation kannst du AvalynxLightbox wie folgt in deine HTML-Datei einbinden:
 
 ```html
+<link rel="stylesheet" href="vendor/avalynx/avalynx-lightbox/dist/css/avalynx-lightbox.css">
 <script src="vendor/avalynx/avalynx-lightbox/dist/js/avalynx-lightbox.js"></script>
-``` 
+```
 
 Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
 
@@ -140,8 +150,12 @@ AvalynxLightbox unterstützt die folgenden Optionen zur Anpassung:
     - `onClose`: (function) Eine Callback-Funktion, die ausgeführt wird, wenn die Lightbox geschlossen wird (Standard: `null`).
     - `opacity`: (number) Hintergrund-Deckkraft (0-100) (Standard: `80`).
     - `zIndex`: (number) Der Z-Index für die Lightbox (Standard: `1500`).
+    - `gallery`: (boolean) Aktiviert den Galerie-Modus für die ausgewählten Bilder (Standard: `false`).
+    - `allowBackgroundScrolling`: (boolean) Erlaubt das Scrollen der Hintergrundseite, während die Lightbox geöffnet ist (Standard: `false`).
 - `language`:
     - `closeButtonLabel`: (string) Das aria-label für die Schließen-Schaltfläche (Standard: `'Schließen'`).
+    - `prevButtonLabel`: (string) Das aria-label für die Zurück-Schaltfläche (Standard: `'Zurück'`).
+    - `nextButtonLabel`: (string) Das aria-label für die Weiter-Schaltfläche (Standard: `'Weiter'`).
 
 ## Mitwirken
 

@@ -1,0 +1,72 @@
+/**
+ * AvalynxLightbox
+ *
+ * AvalynxLightbox is a simple, lightweight, and easy-to-use lightbox library. Based on Bootstrap >=5.3 without any framework dependencies.
+ *
+ * @version 1.0.3
+ * @license MIT
+ * @author https://github.com/avalynx/avalynx-lightbox/graphs/contributors
+ * @website https://github.com/avalynx/
+ * @repository https://github.com/avalynx/avalynx-lightbox.git
+ * @bugs https://github.com/avalynx/avalynx-lightbox/issues
+ *
+ */
+
+.avalynx-lightbox-modal {
+    --avalynx-lightbox-btn-prev-bg: url("data:image/svg+xml,%3c!--!Font%20Awesome%20Free%206.5.2%20by%20%40fontawesome%20-%20https%3a//fontawesome.com%20License%20-%20https%3a//fontawesome.com/license/free%20Copyright%202024%20Fonticons%2c%20Inc.--%3e%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3e%3cpath d='M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z' fill='%23fff'/%3e%3c/svg%3e");
+    --avalynx-lightbox-btn-next-bg: url("data:image/svg+xml,%3c!--!Font%20Awesome%20Free%206.5.2%20by%20%40fontawesome%20-%20https%3a//fontawesome.com%20License%20-%20https%3a//fontawesome.com/license/free%20Copyright%202024%20Fonticons%2c%20Inc.--%3e%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3e%3cpath d='M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z' fill='%23fff'/%3e%3c/svg%3e");
+    --avalynx-lightbox-btn-close-bg: url("data:image/svg+xml,%3c!--!Font%20Awesome%20Free%206.5.2%20by%20%40fontawesome%20-%20https%3a//fontawesome.com%20License%20-%20https%3a//fontawesome.com/license/free%20Copyright%202024%20Fonticons%2c%20Inc.--%3e%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3e%3cpath d='M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256l105.3-105.4z' fill='%23fff'/%3e%3c/svg%3e");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avalynx-lightbox-modal img {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+}
+
+.avalynx-lightbox-modal .avalynx-lightbox-btn-prev {
+    background: transparent var(--avalynx-lightbox-btn-prev-bg) center/2em auto no-repeat;
+    width: 60px;
+    height: 100%;
+    border: none;
+    text-decoration: none;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.avalynx-lightbox-modal .avalynx-lightbox-btn-next {
+    background: transparent var(--avalynx-lightbox-btn-next-bg) center/2em auto no-repeat;
+    width: 60px;
+    height: 100%;
+    border: none;
+    text-decoration: none;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.avalynx-lightbox-modal .avalynx-lightbox-btn-close {
+    background: transparent var(--avalynx-lightbox-btn-close-bg) center/2em auto no-repeat;
+    width: 60px;
+    height: 60px;
+    border: none;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    right: var(--bs-gutter-x, 0px);
+}
+
+.avalynx-lightbox-target {
+    cursor: zoom-in;
+}

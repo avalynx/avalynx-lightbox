@@ -2,9 +2,11 @@
   "name": "avalynx/avalynx-lightbox",
   "files": [
     "dist/js/avalynx-lightbox.esm.js",
-    "dist/js/avalynx-lightbox.js"
+    "dist/js/avalynx-lightbox.js",
+    "dist/css/avalynx-lightbox.css"
   ],
   "files-dev": [
-    "src/js/avalynx-lightbox.js"
+    "src/js/avalynx-lightbox.js",
+    "src/css/avalynx-lightbox.css"
   ]
 }
