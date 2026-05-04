@@ -1,0 +1,9 @@
+# Cline Rules for AvalynxLightbox
+
+- Always perform development tasks (npm build, npm test) inside the Docker container.
+- Use `docker-compose exec -u application web bash` to access the environment.
+- All code changes MUST maintain 100% test coverage.
+- If a change reduces coverage below 100%, it is considered failed.
+- Run `npm test -- --coverage` to verify coverage after every modification.
+- Follow the existing project structure and coding style.
+- Maintain light-weight, framework-independent JavaScript (only Bootstrap 5+ allowed).
