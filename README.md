@@ -57,8 +57,8 @@ Replace `path/to/avalynx-lightbox.*` with the actual path to the files in your p
 AvalynxLightbox is also available via [jsDelivr](https://www.jsdelivr.com/). You can include it in your project like this:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.3/dist/css/avalynx-lightbox.css">
-<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.3/dist/js/avalynx-lightbox.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.4/dist/css/avalynx-lightbox.css">
+<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.4/dist/js/avalynx-lightbox.js"></script>
 ```
 
 Make sure to also include Bootstrap's JS/CSS in your project to ensure AvalynxLightbox displays correctly.
