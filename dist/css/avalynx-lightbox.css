@@ -65,6 +65,7 @@
     position: fixed;
     top: 0;
     right: var(--bs-gutter-x, 0px);
+    z-index: 1;
 }
 
 .avalynx-lightbox-target {

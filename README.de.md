@@ -55,8 +55,8 @@ Ersetze `pfad/zu/avalynx-lightbox.*` durch den tatsächlichen Pfad zu den Dateie
 AvalynxLightbox ist auch über [jsDelivr](https://www.jsdelivr.com/) verfügbar. Du kannst es wie folgt in dein Projekt einbinden:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.4/dist/css/avalynx-lightbox.css">
-<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.4/dist/js/avalynx-lightbox.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.5/dist/css/avalynx-lightbox.css">
+<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.5/dist/js/avalynx-lightbox.js"></script>
 ```
 
 Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
