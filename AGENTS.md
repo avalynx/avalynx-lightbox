@@ -2,6 +2,10 @@
 
 This document contains instructions for AI agents and developers working on this project.
 
+## Project
+
+This project is part of the [Avalynx](https://github.com/avalynx) library family. It is a lightweight, vanilla JavaScript library based on Bootstrap >=5.3 without any other framework dependencies.
+
 ## Development Environment (Docker)
 
 All development work, especially builds and tests, must be performed within the provided Docker environment.
@@ -55,3 +59,11 @@ npm test
 
 *   Maintain existing naming conventions and code structures.
 *   Do not add framework dependencies (except Bootstrap >=5.3).
+*   Write lightweight, framework-independent vanilla JavaScript code.
+*   Follow ESM (ECMAScript Modules) standards where applicable.
+*   Use Jest for testing.
+*   All JSDoc `@param` blocks must follow the project-wide style:
+    *   `@param {object} options - An object containing the following keys:` followed by indented `@param` lines for each option.
+    *   One blank `*` line between the `options` and `language` parameter blocks (where applicable).
+    *   All defaults documented inline as `(default: value)` — never use backticks around the default value.
+    *   Class-level JSDoc description must start with `AvalynxXxx is ...`.

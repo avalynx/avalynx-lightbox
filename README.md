@@ -22,7 +22,7 @@ AvalynxLightbox is a simple, lightweight, and easy-to-use lightbox library, buil
 - **Callback Support**: Set custom actions when the lightbox is closed.
 - **Lightweight**: No additional dependencies besides Bootstrap 5.3+.
 
-## Example
+## Examples
 
 Here's a simple example of how to use AvalynxLightbox in your project:
 
@@ -57,8 +57,8 @@ Replace `path/to/avalynx-lightbox.*` with the actual path to the files in your p
 AvalynxLightbox is also available via [jsDelivr](https://www.jsdelivr.com/). You can include it in your project like this:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.5/dist/css/avalynx-lightbox.css">
-<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.5/dist/js/avalynx-lightbox.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.6/dist/css/avalynx-lightbox.css">
+<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.6/dist/js/avalynx-lightbox.js"></script>
 ```
 
 Make sure to also include Bootstrap's JS/CSS in your project to ensure AvalynxLightbox displays correctly.
@@ -143,7 +143,7 @@ new AvalynxLightbox('.avalynx-lightbox', {
 
 ## Options
 
-AvalynxLightbox supports the following options for customization:
+AvalynxLightbox allows the following options for customization:
 
 - `selector`: (string) CSS selector for the images to display in the lightbox (default: `'.avalynx-lightbox'`).
 - `options`:

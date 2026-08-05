@@ -1,12 +1,12 @@
 # AvalynxLightbox
 
-[![npm version](https://img.shields.io/npm/v/avalynx-lightbox)](https://www.npmjs.com/package/avalynx-lightbox)
-[![npm downloads](https://img.shields.io/npm/dt/avalynx-lightbox)](https://www.npmjs.com/package/avalynx-lightbox)
-[![jsDelivr](https://img.shields.io/jsdelivr/npm/hm/avalynx-lightbox)](https://www.jsdelivr.com/package/npm/avalynx-lightbox)
-[![License](https://img.shields.io/npm/l/avalynx-lightbox)](LICENSE)
-[![Tests](https://github.com/avalynx/avalynx-lightbox/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/avalynx/avalynx-lightbox/actions/workflows/tests.yml)
-[![codecov](https://codecov.io/gh/avalynx/avalynx-lightbox/branch/main/graph/badge.svg)](https://codecov.io/gh/avalynx/avalynx-lightbox)
-[![GitHub stars](https://img.shields.io/github/stars/avalynx/avalynx-lightbox?style=flat&logo=github)](https://github.com/avalynx/avalynx-lightbox)
+[![npm version](https://jbs-newmedia.de/badge/npm/avalynx-lightbox/version.svg)](https://www.npmjs.com/package/avalynx-lightbox)
+[![npm downloads](https://jbs-newmedia.de/badge/npm/avalynx-lightbox/download.svg)](https://www.npmjs.com/package/avalynx-lightbox)
+[![jsDelivr](https://jbs-newmedia.de/badge/jsdelivr/avalynx-lightbox/hits.svg)](https://www.jsdelivr.com/package/npm/avalynx-lightbox)
+[![License](https://jbs-newmedia.de/badge/npm/avalynx-lightbox/license.svg)](LICENSE)
+[![Tests](https://jbs-newmedia.de/badge/github/avalynx/avalynx-lightbox/tests.svg)](https://github.com/avalynx/avalynx-lightbox/actions/workflows/tests.yml)
+[![codecov](https://jbs-newmedia.de/badge/codecov/avalynx/avalynx-lightbox/coverage.svg)](https://codecov.io/gh/avalynx/avalynx-lightbox)
+[![GitHub stars](https://jbs-newmedia.de/badge/github/avalynx/avalynx-lightbox/stars.svg)](https://github.com/avalynx/avalynx-lightbox)
 
 AvalynxLightbox ist eine einfache, leichtgewichtige und benutzerfreundliche Lightbox-Bibliothek, die auf Bootstrap 5.3+ basiert und keine weiteren Framework-Abhängigkeiten benötigt. Sie ermöglicht die Anzeige von Bildern in einem Lightbox-Format mit anpassbaren Optionen, ideal für die Integration in moderne Webanwendungen.
 
@@ -20,9 +20,9 @@ AvalynxLightbox ist eine einfache, leichtgewichtige und benutzerfreundliche Ligh
 - **Callback-Unterstützung**: Lege benutzerdefinierte Aktionen fest, wenn die Lightbox geschlossen wird.
 - **Leichtgewichtig**: Keine zusätzlichen Abhängigkeiten außer Bootstrap 5.3+.
 
-## Beispiel
+## Beispiele
 
-Hier ist ein einfaches Beispiel für die Verwendung von AvalynxLightbox in deinem Projekt:
+Hier ist ein einfaches Beispiel für die Verwendung von AvalynxLightbox in Ihrem Projekt:
 
 * [Übersicht](https://avalynx-lightbox.jbs-newmedia.de/examples/index.html)
 * [Lightbox anzeigen](https://avalynx-lightbox.jbs-newmedia.de/examples/show-lightbox.html)
@@ -31,7 +31,7 @@ Hier ist ein einfaches Beispiel für die Verwendung von AvalynxLightbox in deine
 
 ## Installation
 
-Um AvalynxLightbox in deinem Projekt zu verwenden, kannst du es direkt in deine HTML-Datei einbinden. Stelle sicher, dass Bootstrap 5.3 oder höher in deinem Projekt enthalten ist, damit AvalynxLightbox korrekt funktioniert.
+Um AvalynxLightbox in Ihrem Projekt zu verwenden, können Sie es direkt in Ihre HTML-Datei einbinden. Stellen Sie sicher, dass Bootstrap 5.3 oder höher in Ihrem Projekt enthalten ist, damit AvalynxLightbox korrekt funktioniert.
 
 Zuerst Bootstrap einbinden:
 
@@ -48,36 +48,36 @@ Dann AvalynxLightbox einbinden:
 <script src="pfad/zu/avalynx-lightbox.js"></script>
 ```
 
-Ersetze `pfad/zu/avalynx-lightbox.*` durch den tatsächlichen Pfad zu den Dateien in deinem Projekt.
+Ersetzen Sie `pfad/zu/avalynx-lightbox.*` durch den tatsächlichen Pfad zu den Dateien in Ihrem Projekt.
 
 ## Installation via jsDelivr ([Link](https://cdn.jsdelivr.net/npm/avalynx-lightbox/))
 
-AvalynxLightbox ist auch über [jsDelivr](https://www.jsdelivr.com/) verfügbar. Du kannst es wie folgt in dein Projekt einbinden:
+AvalynxLightbox ist auch über [jsDelivr](https://www.jsdelivr.com/) verfügbar. Sie können es wie folgt in Ihr Projekt einbinden:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.5/dist/css/avalynx-lightbox.css">
-<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.5/dist/js/avalynx-lightbox.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.6/dist/css/avalynx-lightbox.css">
+<script src="https://cdn.jsdelivr.net/npm/avalynx-lightbox@1.0.6/dist/js/avalynx-lightbox.js"></script>
 ```
 
-Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
+Stellen Sie sicher, dass Sie auch Bootstrap JS/CSS in Ihr Projekt einbinden, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
 
 
 ## Installation via NPM ([Link](https://www.npmjs.com/package/avalynx-lightbox))
 
-AvalynxLightbox ist auch als NPM-Paket verfügbar. Du kannst es mit dem folgenden Befehl zu deinem Projekt hinzufügen:
+AvalynxLightbox ist auch als NPM-Paket verfügbar. Sie können es mit dem folgenden Befehl zu Ihrem Projekt hinzufügen:
 
 ```bash
 npm install avalynx-lightbox
 ```
 
-Nach der Installation kannst du AvalynxLightbox wie folgt in deine JavaScript-Datei importieren:
+Nach der Installation können Sie AvalynxLightbox wie folgt in Ihre JavaScript-Datei importieren:
 
 ```javascript
 import { AvalynxLightbox } from 'avalynx-lightbox';
 import 'avalynx-lightbox/dist/css/avalynx-lightbox.css';
 ```
 
-Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
+Stellen Sie sicher, dass Sie auch Bootstrap JS/CSS in Ihr Projekt einbinden, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
 
 ## Installation via Symfony AssetMapper
 
@@ -85,46 +85,46 @@ Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine
 php bin/console importmap:require avalynx-lightbox
 ```
 
-Nach der Installation kannst du AvalynxLightbox wie folgt in deine JavaScript-Datei importieren:
+Nach der Installation können Sie AvalynxLightbox wie folgt in Ihre JavaScript-Datei importieren:
 
 ```javascript
 import { AvalynxLightbox } from 'avalynx-lightbox';
 import 'avalynx-lightbox/dist/css/avalynx-lightbox.css';
 ```
 
-Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
+Stellen Sie sicher, dass Sie auch Bootstrap JS/CSS in Ihr Projekt einbinden, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
 
 ## Installation via Symfony AssetComposer
 
-Weitere Informationen zum Symfony AssetComposer Bundle findest du [hier](https://github.com/jbsnewmedia/asset-composer-bundle).
+Weitere Informationen zum Symfony AssetComposer Bundle finden Sie [hier](https://github.com/jbsnewmedia/asset-composer-bundle).
 
 ```twig
 {% do addAssetComposer('avalynx/avalynx-lightbox/dist/css/avalynx-lightbox.css') %}
 {% do addAssetComposer('avalynx/avalynx-lightbox/dist/js/avalynx-lightbox.js') %}
 ```
 
-Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
+Stellen Sie sicher, dass Sie auch Bootstrap JS/CSS in Ihr Projekt einbinden, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
 
 ## Installation via Composer ([Link](https://packagist.org/packages/avalynx/avalynx-lightbox))
 
-AvalynxLightbox ist auch als Composer-Paket verfügbar. Du kannst es mit dem folgenden Befehl zu deinem Projekt hinzufügen:
+AvalynxLightbox ist auch als Composer-Paket verfügbar. Sie können es mit dem folgenden Befehl zu Ihrem Projekt hinzufügen:
 
 ```bash
 composer require avalynx/avalynx-lightbox
 ```
 
-Nach der Installation kannst du AvalynxLightbox wie folgt in deine HTML-Datei einbinden:
+Nach der Installation können Sie AvalynxLightbox wie folgt in Ihre HTML-Datei einbinden:
 
 ```html
 <link rel="stylesheet" href="vendor/avalynx/avalynx-lightbox/dist/css/avalynx-lightbox.css">
 <script src="vendor/avalynx/avalynx-lightbox/dist/js/avalynx-lightbox.js"></script>
 ```
 
-Stelle sicher, dass du auch Bootstrap JS/CSS in dein Projekt einbindest, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
+Stellen Sie sicher, dass Sie auch Bootstrap JS/CSS in Ihr Projekt einbinden, um eine korrekte Anzeige von AvalynxLightbox zu gewährleisten.
 
 ## Verwendung
 
-Um eine Lightbox zu erstellen, instanziiere einfach ein neues `AvalynxLightbox`-Objekt mit den gewünschten Optionen:
+Um eine Lightbox zu erstellen, instanziieren Sie einfach ein neues `AvalynxLightbox`-Objekt mit den gewünschten Optionen:
 
 ```javascript
 new AvalynxLightbox('.avalynx-lightbox', {
@@ -141,7 +141,7 @@ new AvalynxLightbox('.avalynx-lightbox', {
 
 ## Optionen
 
-AvalynxLightbox unterstützt die folgenden Optionen zur Anpassung:
+AvalynxLightbox ermöglicht die folgenden Optionen zur Anpassung:
 
 - `selector`: (string) CSS-Selektor für die Bilder, die in der Lightbox angezeigt werden sollen (Standard: `'.avalynx-lightbox'`).
 - `options`:
@@ -157,15 +157,15 @@ AvalynxLightbox unterstützt die folgenden Optionen zur Anpassung:
     - `prevButtonLabel`: (string) Das aria-label für die Zurück-Schaltfläche (Standard: `'Zurück'`).
     - `nextButtonLabel`: (string) Das aria-label für die Weiter-Schaltfläche (Standard: `'Weiter'`).
 
-## Mitwirken
+## Beitragen
 
-Beiträge sind willkommen! Wenn du etwas beitragen möchtest, fork bitte das Repository und sende einen Pull Request mit deinen Änderungen oder Verbesserungen. Wir suchen Beiträge in den folgenden Bereichen:
+Beiträge sind willkommen! Wenn Sie etwas beitragen möchten, forken Sie bitte das Repository und senden Sie einen Pull-Request mit Ihren Änderungen oder Verbesserungen. Wir suchen Beiträge in den folgenden Bereichen:
 
 - Fehlerbehebungen (Bug fixes)
 - Funktionserweiterungen
 - Dokumentationsverbesserungen
 
-Bevor du deinen Pull Request einreichst, stelle bitte sicher, dass deine Änderungen gut dokumentiert sind und dem bestehenden Codestil des Projekts entsprechen.
+Bevor Sie Ihren Pull-Request einreichen, stellen Sie bitte sicher, dass Ihre Änderungen gut dokumentiert sind und dem bestehenden Codestil des Projekts entsprechen.
 
 ## Lizenz
 
@@ -173,6 +173,6 @@ AvalynxLightbox ist quelloffene Software, die unter der [MIT-Lizenz](LICENSE) li
 
 ## Kontakt
 
-Wenn du Fragen, Funktionswünsche oder Probleme hast, öffne bitte ein Issue in unserem [GitHub-Repository](https://github.com/avalynx/avalynx-lightbox/issues) oder sende einen Pull Request.
+Wenn Sie Fragen, Funktionswünsche oder Probleme haben, eröffnen Sie bitte ein Issue in unserem [GitHub-Repository](https://github.com/avalynx/avalynx-lightbox/issues) oder reichen Sie einen Pull-Request ein.
 
-Vielen Dank, dass du AvalynxLightbox für dein Projekt in Betracht ziehst!
+Vielen Dank, dass Sie AvalynxLightbox für Ihr Projekt in Betracht ziehen!
